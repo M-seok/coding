@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<style>
+    table {
+        width: 280px;
+        height: 250px;
+        margin: auto;
+        font-size: 15px;
+        }
+    input[type="text"], input[type="password"] {
+        width: 250px;
+        height: 32px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(233,233,233);
+    }
+    .btn {
+        width: 263px;
+        height: 32px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(164, 199, 255);
+    }
+    .btn:active {
+        width: 263px;
+        height: 32px;
+        font-size: 15px;
+        border: 0;
+        border-radius: 15px;
+        outline: none;
+        padding-left: 10px;
+        background-color: rgb(61, 135, 255);
+    }
+    a {
+        font-size: 12px;
+        color: darkgray;
+        text-decoration-line: none;
+       
+    }
+    .join {
+        text-align: center;
+    }
+</style>
+</head>
+<body>
+<form>
+    <table>
+    <tr>
+        <td><h2>로그인</h2></td>
+    </tr>
+    <tr>
+        <td><input type="text" placeholder="ID"></td>
+    </tr>
+    <tr>
+        <td><input type="password" placeholder=Password></td>
+    </tr>
+    <tr>
+       <td><input type="checkbox"> 로그인 정보 저장</td>
+    </tr>
+    <tr>
+        <td><input type="submit" value="Sign in" class="btn" onclick="alert('로그인 성공!')"></td>
+    </tr>
+    <tr>
+        <td class="join"><a href="로그인 창 12.html">회원가입</a></td>
+    </tr>
+    </table>
+</form>
+</body>
+</html>
