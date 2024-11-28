@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>모의투자 플랫폼</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>모의투자 플랫폼</h1>
+      <nav>
+        <a href="#">홈</a>
+        <a href="#portfolio">내 투자</a>
+        <a href="#market-data">시장 데이터</a>
+        <a href="#ranking">랭킹</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 투자 포트폴리오 섹션 -->
+    <section id="portfolio" class="section">
+      <div class="container">
+        <h2>내 투자 포트폴리오</h2>
+        <div class="portfolio-balance">
+          <p>가상 자산: <strong id="balance">₩1,000,000</strong></p>
+          <button id="trade-button">투자하기</button>
+        </div>
+        <div class="portfolio-list">
+          <h3>보유 종목</h3>
+          <table>
+            <thead>
+              <tr>
+                <th>종목</th>
+                <th>수량</th>
+                <th>평균 단가</th>
+                <th>현재가</th>
+                <th>수익률</th>
+              </tr>
+            </thead>
+            <tbody id="portfolio-table">
+              <!-- JavaScript로 데이터 렌더링 -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 시장 데이터 섹션 -->
+    <section id="market-data" class="section">
+      <div class="container">
+        <h2>실시간 시장 데이터</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>종목</th>
+              <th>현재가</th>
+              <th>변동률</th>
+              <th>매수</th>
+            </tr>
+          </thead>
+          <tbody id="market-table">
+            <!-- JavaScript로 데이터 렌더링 -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 모의투자 플랫폼. 모든 권리 보유.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
