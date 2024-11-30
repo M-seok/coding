@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>내 포트폴리오</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>내 포트폴리오</h1>
+      <nav>
+        <a href="#about">소개</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#contact">연락하기</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>소개</h2>
+        <p>안녕하세요! 저는 웹 개발자 [당신의 이름]입니다. 창의적인 문제 해결과 효율적인 코드 작성을 통해 멋진 디지털 경험을 만드는 것을 목표로 하고 있습니다.</p>
+      </div>
+    </section>
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>프로젝트</h2>
+        <div class="projects-grid">
+          <div class="project">
+            <img src="images/project1.jpg" alt="프로젝트 1 이미지">
+            <h3>프로젝트 1</h3>
+            <p>이 프로젝트는 [기술 스택, 주요 기능]을 활용하여 제작되었습니다.</p>
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+          <div class="project">
+            <img src="images/project2.jpg" alt="프로젝트 2 이미지">
+            <h3>프로젝트 2</h3>
+            <p>이 프로젝트는 [기술 스택, 주요 기능]을 활용하여 제작되었습니다.</p>
+            <a href="#" class="btn">자세히 보기</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 연락하기 섹션 -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>연락하기</h2>
+        <p>궁금한 점이 있다면 언제든지 연락주세요!</p>
+        <form id="contact-form">
+          <input type="text" id="name" placeholder="이름" required>
+          <input type="email" id="email" placeholder="이메일" required>
+          <textarea id="message" placeholder="메시지" required></textarea>
+          <button type="submit">보내기</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 내 포트폴리오. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
